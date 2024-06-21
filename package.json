@@ -1,0 +1,23 @@
+{
+  "name": "gaming_seo_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build:css": "postcss style.css -o styles.css"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrtezaAsadRizvi/game-marketing-agency-demo.git"
+  },
+  "author": "Irteza Asad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrtezaAsadRizvi/game-marketing-agency-demo/issues"
+  },
+  "homepage": "https://github.com/IrtezaAsadRizvi/game-marketing-agency-demo#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "postcss-cli": "^11.0.0"
+  }
+}
