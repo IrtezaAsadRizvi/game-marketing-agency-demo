@@ -1,17 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () {
-    var nav = document.querySelector("#nav-container");
-    if (window.scrollY > nav.clientHeight) {
-        nav.classList.add("fill");
-    }
-    window.addEventListener("scroll", function () {
-
-        if (window.scrollY > nav.clientHeight) {
-            nav.classList.add("fill");
-        } else {
-            nav.classList.remove("fill");
-        }
-    });
-});
+document.addEventListener("DOMContentLoaded", function(event) {
+    const preloader = document.querySelector('.preloader')
+    
+    setTimeout(function() {
+      preloader.classList.add('hidden')
+      setTimeout(function() {
+        preloader.style.display = 'none'
+      }, 500)
+    }, 1000)
+  });
 
 // Three JS Template
 //----------------------------------------------------------------- BASIC parameters
